@@ -4,7 +4,7 @@ const errorMiddleware = require("./middlewares/middle");
 const PORT=8000;
 app.get("/",(req,res,next)=>{
      try {
-        // Normal task
+
         const result = null;
 
         if (!result) {
