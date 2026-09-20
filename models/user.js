@@ -1,17 +1,17 @@
 const mongoose=require("mongoose");
 const { number, email } = require("zod");
 const { string, required } = require("zod/mini");
-const userSchema=new mongoose.schema({
+const userSchema=new mongoose.Schema({
     name:{
-        type:string,
+        type:String,
         required:true
     },
     age:{
-   type:number,
+   type:String,
         required:true
     },
     email:{
-        type:email,
+        type:String,
         required:true
     }
 })
