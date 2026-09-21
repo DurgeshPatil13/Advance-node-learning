@@ -1,4 +1,4 @@
-const  success  = require("zod")
+const  success  = require("zod");
 
 function validation(Schema){
 return (req,res,next)=>{
@@ -11,6 +11,6 @@ return (req,res,next)=>{
     }
     req.body=result.data;
     next();
-}
-}
+};
+};
 module.exports=validation;
