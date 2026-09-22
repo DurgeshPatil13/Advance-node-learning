@@ -7,8 +7,8 @@ return (req,res,next)=>{
         return res.status(400).json({
             success:false,
             errors:result.error.issues
-        })
-    }
+        });
+    };
     req.body=result.data;
     next();
 };
