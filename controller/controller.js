@@ -13,6 +13,6 @@ async function postdata(req, res) {
         message: "User created",
         data: user
     });
-};
+}
 
 module.exports = postdata;

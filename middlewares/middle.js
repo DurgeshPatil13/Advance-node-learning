@@ -3,6 +3,6 @@ const errorMiddleware = (err, req, res, next) => {
         success: false,
         message: err.message
     });
-};
+}
 
 module.exports = errorMiddleware;
