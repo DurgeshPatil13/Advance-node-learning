@@ -6,8 +6,8 @@ const connectdb=require("./connection/dbconn");
 const errorMiddleware = require("./middlewares/middle");
 const PORT=8000
 connectdb("mongodb://localhost:27017/zod");
-app.use("/user",router);
-app.use(errorMiddleware);
+app.use("/user",router)
+app.use(errorMiddleware)
 app.listen(PORT, () =>{
-    console.log("success");
-});
+    console.log("success")
+})
