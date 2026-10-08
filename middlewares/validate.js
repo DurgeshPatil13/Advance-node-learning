@@ -9,8 +9,8 @@ return (req,res,next)=>{
             errors:result.error.issues
         });
     };
-    req.body=result.data;
+    req.body=result.data
     next();
-};
-};
+}
+}
 module.exports=validation;
