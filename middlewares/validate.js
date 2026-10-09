@@ -1,4 +1,4 @@
-const  success  = require("zod");
+const  success  = require("zod")
 
 function validation(Schema){
 return (req,res,next)=>{
