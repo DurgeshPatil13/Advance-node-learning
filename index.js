@@ -1,5 +1,5 @@
-const express=require("express");
-const app=express();
+const express=require("express")
+const app=express()
 const router=require("./routes/routes")
 app.use(express.urlencoded({ extended: true }))
 const connectdb=require("./connection/dbconn")
